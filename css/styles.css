@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+/* 
+:root {
+    --color-primario: #1976D2;
+    --gris-oscuro: #AAAAAA;
+    --max-width: 1200px;
+    --claro: #f6f6f9;
+    --oscuro: #363949;
+    --gray-dark-color: #666;
+} */
+
+
 html {
     --s: 50px;
     --c: #191b22;
@@ -12,4 +24,9 @@ html {
     repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s), 
     radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s) var(--c);
     background-attachment: fixed;
+}
+
+li a {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 12px !important;
 }
